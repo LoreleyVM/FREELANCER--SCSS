@@ -65,7 +65,7 @@ body {
       -ms-flex-align: center;
           align-items: center;
   width: auto;
-  max-width: 30%;
+  max-width: 250px;
   height: auto;
 }
 
