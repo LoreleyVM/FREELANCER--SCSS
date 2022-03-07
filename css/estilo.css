@@ -122,7 +122,7 @@ body {
   margin-bottom: 10px;
 }
 
-.tituloYoutube {
+.tituloYoutube, #footer p {
   font-family: "Cabin Condensed", sans-serif;
   font-size: 20px;
   text-decoration: underline;
@@ -133,11 +133,12 @@ body {
   text-align: center;
 }
 
-#footer p {
-  color: thistle;
-  font-size: small;
-  margin-top: 60px;
-  text-align: center;
-  margin-bottom: 10px;
-}
+/**
+  #footer p {
+    color: $colorfooter;
+    font-size: small;
+    margin-top: 60px;
+    text-align: center;
+    margin-bottom: 10px;
+  } **/
 /*# sourceMappingURL=estilo.css.map */
