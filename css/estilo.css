@@ -4,6 +4,7 @@
 /*Tipo para toda la web*/
 @import url("https://fonts.googleapis.com/css2?family=Cabin+Condensed&display=swap");
 /*font-family: 'Cabin Condensed', sans-serif;*/
+/**IMPORTS**/
 header div ul .nav-item {
   background-color: black;
 }
@@ -12,6 +13,8 @@ header div ul .nav-item:hover {
   background-color: purple !important;
 }
 
+/**VARIABLES**/
+/**ESTILOS GENERALES**/
 body {
   background-color: black;
 }
@@ -28,6 +31,26 @@ body {
   padding: 10px 20px 15px 20px;
   max-width: 200px;
   height: 50px;
+}
+
+.nav-item1 {
+  background-color: pink;
+}
+
+.nav-item2 {
+  background-color: yellow;
+}
+
+.nav-item3 {
+  background-color: red;
+}
+
+.nav-item4 {
+  background-color: green;
+}
+
+.nav-item5 {
+  background-color: lightblue;
 }
 
 .gonzaportada img {

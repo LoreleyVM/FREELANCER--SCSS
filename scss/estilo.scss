@@ -6,9 +6,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin+Condensed&display=swap");
 /*font-family: 'Cabin Condensed', sans-serif;*/
 
+/**IMPORTS**/
 @import "variables";
 @import "boton";
 
+/**VARIABLES**/
+$colortipo: (h3: yellow);
+$botones: (color1: red, color2: yellow, color3: pink, color4: lightblue, color5: green);
+
+
+/**ESTILOS GENERALES**/
 body {
     background-color: $colorfondo;
   } 
@@ -31,6 +38,26 @@ body {
             }
         }
     }
+
+.nav-item1 {
+    background-color: map-get($botones, color3);
+}
+
+.nav-item2 {
+    background-color: map-get($botones, color2);
+}
+
+.nav-item3 {
+    background-color: map-get($botones, color1);
+}
+
+.nav-item4 {
+    background-color: map-get($botones, color5);
+}
+
+.nav-item5 {
+    background-color: map-get($botones, color4);
+}
 
 .gonzaportada {
     img {
