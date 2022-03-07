@@ -5,7 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin+Condensed&display=swap");
 /*font-family: 'Cabin Condensed', sans-serif;*/
 header div ul .nav-item {
-  background-color: #818471;
+  background-color: black;
 }
 
 header div ul .nav-item:hover {
@@ -25,7 +25,9 @@ body {
   font-family: 'Cabin Condensed', sans-serif;
   color: whitesmoke;
   text-transform: uppercase;
-  padding: 15px 20px 15px 20px;
+  padding: 10px 20px 15px 20px;
+  max-width: 200px;
+  height: 50px;
 }
 
 .gonzaportada img {
