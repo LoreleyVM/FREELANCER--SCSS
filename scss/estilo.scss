@@ -12,7 +12,7 @@
 
 /**VARIABLES**/
 $colortipo: (h3: yellow);
-$botones: (color1: red, color2: yellow, color3: pink, color4: lightblue, color5: green);
+$colores: (color1: red, color2: yellow, color3: pink, color4: lightblue, color5: green);
 
 
 /**ESTILOS GENERALES**/
@@ -38,27 +38,29 @@ body {
             }
         }
     }
-
+/**MAP GET**/
 .nav-item1 {
-    background-color: map-get($botones, color3);
+    background-color: map-get($colores, color3);
 }
 
 .nav-item2 {
-    background-color: map-get($botones, color2);
+    background-color: map-get($colores, color2);
 }
 
 .nav-item3 {
-    background-color: map-get($botones, color1);
+    background-color: map-get($colores, color1);
 }
 
 .nav-item4 {
-    background-color: map-get($botones, color5);
+    background-color: map-get($colores, color5);
 }
 
 .nav-item5 {
-    background-color: map-get($botones, color4);
+    background-color: map-get($colores, color4);
 }
 
+
+/**-----------**/
 .gonzaportada {
     img {
     width: 100%;
@@ -129,6 +131,17 @@ div {
     margin-bottom: 10px;
     text-align: center;
   }
+
+  
+/**MIXIN**/
+@mixin tamaño {
+    font-size: 80px;
+
+}
+
+.lista {
+    @include tamaño;
+}
   
   /**
   #footer p {
@@ -139,6 +152,7 @@ div {
     margin-bottom: 10px;
   } **/
 
+  /**EXTEND**/
   #footer p{
       @extend .tituloYoutube;
   }

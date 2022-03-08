@@ -33,6 +33,7 @@ body {
   height: 50px;
 }
 
+/**MAP GET**/
 .nav-item1 {
   background-color: pink;
 }
@@ -53,6 +54,7 @@ body {
   background-color: lightblue;
 }
 
+/**-----------**/
 .gonzaportada img {
   width: 100%;
 }
@@ -133,6 +135,11 @@ body {
   text-align: center;
 }
 
+/**MIXIN**/
+.lista {
+  font-size: 80px;
+}
+
 /**
   #footer p {
     color: $colorfooter;
@@ -141,4 +148,5 @@ body {
     text-align: center;
     margin-bottom: 10px;
   } **/
+/**EXTEND**/
 /*# sourceMappingURL=estilo.css.map */
